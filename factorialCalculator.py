@@ -11,7 +11,7 @@ def factorialnum(a):
         j = a-1
         facto = a
         for x in range(1, j+1):
-            facto *= (a-x)
+            facto *= a-x
         return print(facto)
 
 
